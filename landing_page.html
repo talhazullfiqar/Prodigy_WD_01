@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="landing_page.css">
+</head>
+<body>
+    <header id="home">
+        <h1 style=" color: #ff9800;">Welcome to Our Landing Page</h1>
+    </header>
+
+    <section id="products">
+        <h2 style=" color: #ff9800;">Our Products</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="card-img"><div class="img"></div></div>
+                <div class="card-title">Product 1</div>
+                <div class="card-subtitle">Product description. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span> 123.45</div>
+                    <button class="card-btn">
+                      <svg viewBox="0 0 512 512"><path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z"></path><path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2 style=" color: #ff9800;">About Us</h2>
+        <p>Welcome to Buy It, where style meets substance. At Buy It, we believe that clothing is more than just fabric—it's a statement, an expression of personality, and a reflection of individuality. Our passion lies in curating fashion-forward collections that inspire confidence and celebrate diversity.
+
+            Founded with a commitment to quality and design, Buy It brings you the latest trends infused with timeless elegance. Whether you're searching for everyday essentials or standout pieces for special occasions, our carefully selected range ensures there's something for every wardrobe.
+            
+            Join us in embracing fashion as a form of self-expression. Explore our collections and discover why Buy It is not just a brand, but a lifestyle.
+            
+            </p>
+    </section>
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>How to reach us.</p>
+        </section>
+        <section id="social-media">
+            <h3 style=" color: #ff9800;">Follow Us</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </section>
+        <section id="copyright">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </section>
+    </footer>
+    
+    <div class="navigation-card">
+        <a href="#home" class="tab">
+            <svg class="svgIcon" viewBox="0 0 104 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M100.5 40.75V96.5H66V68.5V65H62.5H43H39.5V68.5V96.5H3.5V40.75L52 4.375L100.5 40.75Z" stroke="black" stroke-width="7"></path>
+            </svg>
+        </a>
+        <a href="#about" class="tab">
+            <svg width="104" height="100" viewBox="0 0 104 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="21.5" y="3.5" width="60" height="60" rx="30" stroke="black" stroke-width="7"></rect>
+                <g clip-path="url(#clip0_41_27)">
+                    <mask id="mask0_41_27" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="61" width="104" height="52">
+                        <path d="M0 113C0 84.2812 23.4071 61 52.1259 61C80.706 61 104 84.4199 104 113H0Z" fill="white"></path>
+                    </mask>
+                    <g mask="url(#mask0_41_27)">
+                        <path d="M-7 113C-7 80.4152 19.4152 54 52 54H52.2512C84.6973 54 111 80.3027 111 112.749H97C97 88.0347 76.9653 68 52.2512 68H52C27.1472 68 7 88.1472 7 113H-7ZM-7 113C-7 80.4152 19.4152 54 52 54V68C27.1472 68 7 88.1472 7 113H-7ZM52.2512 54C84.6973 54 111 80.3027 111 112.749V113H97V112.749C97 88.0347 76.9653 68 52.2512 68V54Z" fill="black"></path>
+                    </g>
+                </g>
+                <defs>
+                    <clipPath id="clip0_41_27">
+                        <rect width="104" height="39" fill="white" transform="translate(0 61)"></rect>
+                    </clipPath>
+                </defs>
+            </svg>
+        </a>
+        
+    </div>
+    <script src="landing_page.js"></script>
+</body>
+</html>
